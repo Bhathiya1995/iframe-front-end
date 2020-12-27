@@ -1,0 +1,32 @@
+.overlay-card {
+  position: relative;
+  opacity: 0.2;
+  background-color: rgba(0, 0, 0, 0.918);
+  height: 100%;
+  z-index: 1;
+}
+
+.overlay-card:hover {
+  opacity: 0.6;
+}
+
+.card-image {
+  width: 100px;
+  height: 300px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.detail-card {
+  position: absolute;
+}
+
+.card-title {
+  position: relative;
+  z-index: 2;
+}
+
+.card-text {
+  position: relative;
+  z-index: 5;
+}

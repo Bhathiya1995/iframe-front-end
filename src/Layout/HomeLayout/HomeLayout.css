@@ -1,0 +1,22 @@
+.text-area {
+  position: absolute;
+  color: white;
+  z-index: 20;
+  top: 15%;
+  left: 5%;
+}
+
+.text-header {
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+.navigationbar {
+  z-index: 100;
+}
+
+@media screen and (max-width: 500px) {
+  .text-area {
+    top: 10%;
+  }
+}

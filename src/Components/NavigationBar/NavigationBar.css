@@ -1,0 +1,25 @@
+.navbar-bg.active {
+  background-color: white;
+}
+
+.navlinks {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.navlinks:hover {
+  text-decoration: none;
+  color: darkslategrey;
+  font-weight: 900;
+}
+
+.navdropdown {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.dropdown-bg {
+  background-color: transparent;
+}

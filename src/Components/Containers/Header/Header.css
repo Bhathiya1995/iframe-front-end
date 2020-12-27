@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+.header {
+  height: 100vh;
+  min-height: 400px;
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+}
+
+.header.home {
+  background-image: url("../../../assets/mainimage.jpg");
+}
+
+.header.about {
+  background-image: url("../../../assets/about-bg.jpg");
+}
+
+.header.sports {
+  background-image: url("../../../assets/sport-header-bg.jpg");
+}
+
+.header.cultural {
+  background-image: url("../../../assets/cultural-event-bg.jpg");
+}
+.header.meeting-and-confference {
+  background-image: url("../../../assets/confference-bg.jpg");
+}
+.header.parties-and-weddings {
+  background-image: url("../../../assets/parties-and-wedding-bg.jpg");
+}
+.header.musical-event {
+  background-image: url("../../../assets/musical-event-bg.jpg");
+}
+.header.exhibitions {
+  background-image: url("../../../assets/exhibition-bg.jpg");
+}
+.header.live {
+  background-image: url("../../../assets/live-bg.jpg");
+}
+
+.overlay {
+  position: relative;
+  opacity: 0.8;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), black);
+  height: 100%;
+  z-index: 1;
+}
