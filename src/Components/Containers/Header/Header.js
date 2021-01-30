@@ -24,6 +24,8 @@ const getBgImage = (imgPath) => {
       return "header exhibitions";
     case "/live":
       return "header live";
+    case "/contact":
+      return "header contact";
   }
 };
 

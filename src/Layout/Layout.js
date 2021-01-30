@@ -13,6 +13,8 @@ import PartiesAndWeddingPageLayout from "./PartiesAndWeddingPageLayout/PartiesAn
 import MusicalEventPageLayout from "./MusicalEventPageLayout/MusicalEventPageLayout";
 import ExhibitionPageLayout from "./ExhibitionPageLayout/ExhibitionPageLayout";
 import LivePageLayout from "./LivePageLayout/LivePageLayout";
+import Footer from "../Components/Containers/Footer/Footer";
+import ContactPageLayout from "./ContactPageLayout/ContactPageLayout";
 
 const Layout = (props) => {
   console.log(props.location);
@@ -39,7 +41,9 @@ const Layout = (props) => {
       <Route path="/musical-events" exact component={MusicalEventPageLayout} />
       <Route path="/exhibitions" exact component={ExhibitionPageLayout} />
       <Route path="/live" exact component={LivePageLayout} />
-      <div>Footer</div>
+      <Route path="/contact" exact component={ContactPageLayout} />
+
+      <Footer />
     </Aux>
   );
 };

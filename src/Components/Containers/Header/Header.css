@@ -38,6 +38,9 @@
 .header.live {
   background-image: url("../../../assets/live-bg.jpg");
 }
+.header.contact {
+  background-image: url("../../../assets/contact-bg.jpg");
+}
 
 .overlay {
   position: relative;
